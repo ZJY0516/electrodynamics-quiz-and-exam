@@ -1,0 +1,43 @@
+\documentclass{exam}
+
+\usepackage{ctex}
+\usepackage{amsmath}
+\usepackage{physics}
+\usepackage{anyfontsize}
+
+\renewcommand{\thequestion}{\zhnum{question}}
+\renewcommand{\questionlabel}{\thequestion .}
+\renewcommand{\thepartno}{\arabic{partno}}
+\renewcommand{\partlabel}{\thepartno .}
+
+\author{朱江云（整理）}
+\title{电动力学第二章测验}
+\date{}
+
+\begin{document}
+\maketitle
+\begin{questions}
+    \question 推导电磁场动量守恒定律，写出电磁场动量密度和动量流密度张量的表达式，简述平面电磁波的动量流密度张量的形式。
+    \question
+    \begin{parts}
+        \part 当两种绝缘介质的交界面上没有自由电荷时，试证明交界面两侧电力线与交界面法线的夹角$\theta_1$和$\theta_2$满足
+        \begin{equation*}
+            \frac{\tan \theta_1}{\tan \theta_2}=\frac{\varepsilon_{1r}}{\varepsilon_{2r}}
+        \end{equation*}
+        式中$\varepsilon_{1r}$和$\varepsilon_{2r}$分别是两介质的介电常量。
+        \part 当两种导电介质内都有恒定电流时，试证明交界面两侧电力线与交界面法线的夹角满足
+        \begin{equation*}
+            \frac{\tan \theta_1}{\tan \theta_2}=\frac{\sigma_{1r}}{\sigma_{2r}}
+        \end{equation*}
+        \part 当导体（电导率为$\sigma$）和绝缘体（电容率为$\varepsilon$）接触时，试求交界面两侧电力线与法线的夹角大小。
+    \end{parts}
+    \question 内外电极的截面半径分别为a和b的无限长圆柱形电容器，单位长度荷电为$\lambda_f$，两
+    极间填充电导率$\sigma$的非磁性物质。
+    \begin{parts}
+        \part 证明在介质中的任何一点传导电流与位移电流严格抵消，因此内部无磁场；
+        \part 求$\lambda$随时间衰减的规律；
+        \part 求与轴相距为$r$的地方的能量耗散功率密度；
+        \part 求长度为$l$的一段介质总的能量耗散功率，并证明它等于这段的电场能量减少率。
+    \end{parts}
+\end{questions}
+\end{document}

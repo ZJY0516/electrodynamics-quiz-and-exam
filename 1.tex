@@ -1,0 +1,33 @@
+\documentclass{exam}
+\usepackage{amsmath}
+\usepackage{ctex}
+\usepackage{esvect}
+\usepackage{anyfontsize}
+\usepackage{physics}
+\renewcommand{\thequestion}{\zhnum{question}}
+\renewcommand{\questionlabel}{\thequestion .}
+\renewcommand{\thepartno}{\arabic{partno}}
+\renewcommand{\partlabel}{\thepartno .}
+\author{朱江云（整理）}
+\title{电动力学第一章测验}
+\date{}
+\begin{document}
+\maketitle
+\begin{questions}
+    \question 已知$\vv{a}$，$\vv{b}$均为常矢量，$\vv{r}$为位矢，求：
+    \begin{equation*}
+        \nabla \cdot [f(r)\vv{r}] \qquad \nabla \times [f(r)\vv{r}] \qquad \nabla\cdot[(\vv{a}\cdot\vv{r})\vv{b}]
+    \end{equation*}
+    \question 证明：
+    \begin{equation*}
+        (\vv{A}\times\vv{B})\times(\vv{C}\times\vv{D})
+        =[\vv{A}\cdot(\vv{C}\times\vv{D})]\vv{B}
+        -[\vv{B}\cdot(\vv{C}\times\vv{D})]\vv{A}
+    \end{equation*}
+    \question 证明：
+    \begin{equation*}
+        \laplacian{uv}=v\laplacian{u}+u\laplacian{v}+2(\nabla u)\cdot(\nabla v)
+    \end{equation*}
+\end{questions}
+
+\end{document}
